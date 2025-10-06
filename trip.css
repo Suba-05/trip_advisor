@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+body{
+    font-family: 'Gabarito',sans-serif;
+}
+.top{
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color:white;
+    z-index: 1;
+}
+.top__1{
+    display: flex;
+    gap: 5px;
+}
+.top__1 i{
+    font-size: 35px;
+    align-items:center;
+
+}
+.top__1 h1{
+    align-items: top;
+}
+.top__2{
+    display: flex;
+    justify-content: space-between;
+}
+.top__3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top__3 button{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.where{
+    margin-top: 30px;
+    text-align: center;
+    font-size:25px;
+}
+.navbar{
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items:center;
+    background-color: rgb(245, 239, 239);
+}
+.search input{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    background-color: transparent;
+}
+.search button{
+    background-color: rgb(88, 237, 88);
+    color: black;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 20px;
+}
+.sale img{
+    
+    margin-top: 30px;
+    height: 500px;
+    width:100%;
+    border-radius: 10px;
+}
+.restaurants{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.besthotels{
+   display: flex;
+   flex-wrap: wrap; 
+   justify-content: space-between;
+   margin-bottom: 30px;
+}
+.besthotels__card{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
+    position: relative;
+}
+.besthotels__card img{
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.besthotels__card__name{
+    color:white;
+    position: absolute;
+    bottom: 30%;
+    border: none;
+    background: rgb(71, 65, 65);
+    border-top-right-radius: 20px ;
+    border-bottom-right-radius: 20px;
+}
+.experience{
+    display: flex;
+   flex-wrap: wrap; 
+   justify-content: space-between;
+   margin-bottom: 30px;
+}
+.experience__card{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
+}
+.experience__card img{
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+}
+.text{
+    margin-top: 50px;
+}
+.more{
+    margin-top: 20px;
+    display: flex;
+   flex-wrap: wrap; 
+   justify-content: space-between;
+   margin-bottom: 30px;
+}
+.more__card{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
+}
+.more__card img{
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+}
+.text3{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.add{
+    display: flex;
+}
+.add img{
+    height:100%;
+    width: 50%;
+}
+.add__1{
+    margin-top: 20%;
+    text-align: center;
+}
+.add h1{
+    text-align: center;
+}
+.add button{
+    background-color: green;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    border: none;
+}
+
+
+.footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.footer__one{
+    display: flex;
+    gap:10px;
+}
+.footer__one p{
+    margin:20px;
+}
+.footer__two{
+    display: flex;
+    margin:20px;
+    justify-content: space-between;
+}
